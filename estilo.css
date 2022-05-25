@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+    .quad {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    }
+}
+html {
+    font-family: 'Odibee Sans', cursive;
+    width: 50%;
+    padding-left: 25%;
+}
+#intro{
+    display:flex;
+    flex-direction: row-reverse;
+    background-color: lightgray;
+}
+body{
+    margin: 0;
+}
+header{
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+    background-color: lightgray;
+}
+h2, h3{
+    text-align: center;
+    margin: 0;
+    background-color: lightgray;
+}
+#a1{
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+#a2{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#menu-navegacao {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: lightgray;
+}
+#menu-navegacao ul {
+    list-style: none;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+}
+#menu-navegacao ul li {
+    display: inline-block;
+}
+#menu-navegacao ul li a {
+    color: antiquewhite;
+    text-decoration: none; 
+    padding: 15px;
+    display: inline-block; 
+    transition: background 1s; 
+}
+#menu-navegacao ul li a:hover {
+    background-color: gray;
+    opacity: 0.5;
+}
+#menu-navegacao figure{
+    text-align: center;
+}
+#formulario{
+    padding: 10px;
+    background-color: lightgray;
+}

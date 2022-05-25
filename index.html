@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="estilo.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Um refúgio chamado desenho</h1>
+    </header>
+    <div id="intro">
+        <article id="a1">
+            <h2>Um pouco sobre mim</h2>    
+            <p>Olá! Meu nome é Karolline, tenho 20 anos (até o momento) e lhe apresento meu pequeno portfólio. Este site irá apresentar a minha evolução no desenho ao longo dos anos. Agora falando um pouco da minha história, eu comecei a desenhar oficialmente em 2017 enquanto estava no ensino médio e tudo começou por causa de uma gincana na escola, a partir dali eu obtive gosto pela coisa e deslanchei no mundo da arte. Durante esses anos, além de ter sido algo que me ajudou a desacelerar um pouco, o desenho me ajudou a ter outra <b>percepção do mundo</b> e do que vemos de modo geral. Por este motivo, irei compartilhar um pouquinho do que foi essa experiência para mim. <i>Ps.: Eu não sou desenhista profissional.</i> </p>
+        </article>
+        <article id="a2">
+            <h3>Por: Karolline Carvalho Silva</h3>
+            <img src="imagem2.jpg" alt="Autora" height="200" width="160">
+            <figure>
+                <figcaption>Contatos</figcaption>
+                <a href="https://www.instagram.com/karol.carvalhos/?igshid=YmMyMTA2M2Y="><img src="imagem.png" alt="Instagram" height="35" width="35"></a>
+                <a href="mailto:karollinecarvalhosilva@gmail.com"><img src="imagem3.png" alt="Email" height="35" width="35"></a>
+            </figure>
+        </article>
+    </div>
+
+    <h2>Fique a vontade para ver os meus trabalhos</h2>
+    <nav id="menu-navegacao">
+        <ul>
+            <li><a href="#2018">2018</a></li>
+            <li><a href="#2019">2019</a></li>
+            <li><a href="#2020">2020</a></li>
+            <li><a href="#2021">2021</a></li>
+            <li><a href="#2022">2022</a></li>
+        </ul>
+        <figure>
+            <p><a name="2018"></a></p>
+            <h3>2018</h3>
+            <img src="2018-1.png" alt="Batman" height="350" width="250">
+            <img src="2018-2.jpg" alt="Zombie" height="350" width="250">
+        </figure>
+        <figure>
+            <p><a name="2019"></a></p>
+            <h3>2019</h3>
+            <img src="2019-3.jpg" alt="Davi" height="350" width="250">
+            <img src="2019-4.jpg" alt="Random" height="350" width="270">
+        </figure>
+        <figure>
+            <p><a name="2020"></a></p>
+            <h3>2020</h3>
+            <img src="2020-1.jpg" alt="Caveira" height="350" width="250">
+            <img src="2020-2.jpg" alt="Atena" height="350" width="250">
+            <img src="2020-3.jpg" alt="Kratos" height="350" width="250">
+            <img src="2020-4.jpg" alt="Normani" height="350" width="250">
+        </figure>
+        <figure>
+            <p><a name="2021"></a></p>
+            <h3>2021</h3>
+            <img src="2021-2.jpg" alt="Homem-aranha" height="350" width="250">
+            <img src="2021-3.jpg" alt="Natasha" height="350" width="250">
+        </figure>
+        <figure>
+            <p><a name="2022"></a></p>
+            <h3>2022</h3>
+            <img src="2022-1.jpg" alt="Kara" height="350" width="250">
+            <img src="2022-2.jpg" alt="Gamora" height="350" width="250">
+            <img src="2022-4.jpg" alt="Anime" height="350" width="250">
+        </figure>
+    </nav>
+    
+    <form action="#" method="get" target="_blank" autocomplete="off"> <section id="formulario">
+        <h2>Faça uma encomenda</h2> 
+        <p>Neste formulário você pode fazer o orçamento de um desenho, caso tenha alguma dúvida, entre em contato por email.</p>
+        <fieldset>
+        <legend>Informações importantes</legend>
+            <p>O valor final irá depender da arte que você deseja, por isso, este formulário serve como uma base para o orçamento final.</p>
+            <label for="nameCli">Nome: </label>
+        <div>
+            <input type="text" id="nameCli" name="txtNomeCli" placeholder="Nome" required/>
+        </div>
+        <div>
+            <label for="mailCli">Email: </label>
+            <br/>
+            <input type="email" id="mailCli" name="txtMailCli" placeholder="E-Mail"/>
+        </div>
+        <div>
+            <label for="optCli">Arte com moldura: </label>
+            <input type="checkbox" id="optCli" name="chkOptCli" checked />
+        </div>
+            <p>Tamanho:</p>
+        <div style="display: flex"> 
+            <label for="optA4">A4 (30x21cm): </label>
+            <input type="radio" id="optA4" name="tamFolha" value="A4" />
+            <br/>
+            <label for="optQuad">Personalizado (21x21cm): </label>
+            <input type="radio" id="optQuad" name="tamFolha" value="Quad" />
+        </div>
+        <div style="display: block; padding-top: 10px; padding-right: 10px">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar campos</button>
+        </div>
+        </fieldset>
+        </section>
+    </form>
+</body>
+</html>
